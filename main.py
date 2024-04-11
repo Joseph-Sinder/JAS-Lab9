@@ -7,4 +7,4 @@ def encode(password):
             encoded_password += str((int(password[i]) + 3))
         else:
             encoded_password += str((int(password[i]) - 7))
-    print("Your password has been encoded and stored!")
+    return encoded_password
